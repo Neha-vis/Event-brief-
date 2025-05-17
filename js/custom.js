@@ -280,3 +280,30 @@ $(window).on("scroll", function () {
     }
   }
 });
+
+ document.addEventListener("DOMContentLoaded", () => {
+    const toggleButton = document.getElementById('menuToggle');
+    const rightMenu = document.getElementById('rightMenu');
+
+    if (toggleButton && rightMenu) {
+      toggleButton.addEventListener('click', () => {
+        rightMenu.classList.toggle('active');
+      });
+    }
+  });
+
+  // typewriter
+
+ const app = document.getElementById('typewriter-heading');
+
+  const typewriter = new Typewriter(app, {
+    loop: true,
+    delay: 120,
+    deleteSpeed: 80
+  });
+
+  typewriter
+    .typeString('Where Purpose Meets Process')
+    .pauseFor(1500)
+    .deleteAll()
+    .start();
