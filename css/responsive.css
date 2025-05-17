@@ -1,0 +1,847 @@
+@media (max-width: 767px) {
+
+ 
+
+.header{
+  display: none;
+}
+
+
+
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 50px 15px; 
+    box-sizing: border-box;
+  }
+
+  .hero-section {
+    height: auto;
+    padding: 40px 15px; 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 80px;
+  }
+
+  .overlay-content {
+    position: static;
+    padding: 0;
+  }
+
+  .banner_heading {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  .banner-title {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  /* home section2 */
+  .left-image {
+    height: 250px;
+  }
+
+  .right-content h2 {
+    font-size: 1.4rem;
+  }
+
+  .right-content p {
+    font-size: 0.95rem;
+  }
+
+  .spark-text {
+    font-size: 16px;
+  }
+
+  .blue-spark {
+    width: 180px;
+  }
+
+  .arrow-img {
+    left: 75%;
+    width: 60px;
+  }
+
+  /* home section 3 */
+  .impact-container {
+    padding: 15px;
+    gap: 30px;
+  }
+
+  .impact-left h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .impact-point {
+    padding: 20px 15px;
+  }
+
+  .impact-point .dot {
+    width: 25px;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: -25px;
+  }
+
+  .impact-right h2 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .impact-right p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .impact-right span {
+    font-size: 14px;
+  }
+
+  .bottom-center-img img {
+    width: 220px;
+  }
+/* team section */
+.left-column,
+  .right-column {
+    margin-top: 30px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .section-subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .info-box {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info-icon {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .info-text {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+/* service */
+.services-section {
+    padding: 40px 15px;
+  }
+
+  .services-header h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .service-image-wrapper {
+    width: 90%;
+    max-width: 280px;
+  }
+
+  .puzzle-img {
+    top: 30px;
+  }
+
+  .arrows-overlay {
+    /* top: 25px;
+    left: -30px;
+    width: 150%;
+    height: 150%; */
+    display: none;
+  }
+
+  .service-text h3 {
+    font-size: 18px;
+  }
+
+  .service-text p {
+    font-size: 14px;
+  }
+
+  /* service 2 */
+  .impact-card-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .impact-card {
+    width: 90%;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  /* Remove translateY on very small screens for cleaner stacking */
+  .up,
+  .down {
+    transform: none;
+  }
+
+  .impact-card ul {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+
+  .icon-circle {
+    bottom: -28px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon-circle img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .section-title {
+    font-size: 22px;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+  }
+/* process */
+.process-text h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .process-text p {
+    font-size: 14px;
+  }
+
+  .steps-flow {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .step {
+    width: 100%;
+    max-width: 280px;
+    align-self: center !important;
+  }
+
+  .step.up,
+  .step.down {
+    align-self: center !important;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .highlight-note {
+    max-width: 100%;
+    padding: 12px;
+    margin-top: 40px;
+  }
+
+  .workflow-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    gap: 20px;
+  }
+
+  .zigzag-area {
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  /* Make steps static in a vertical flow below the image */
+  .workflowstep {
+    position: static !important;
+    width: 100%;
+    max-width: 280px;
+    margin: 15px auto;
+    text-align: left;
+  }
+
+  .step-icon {
+    margin: 0 0 10px 0;
+  }
+
+  .workflow-heading {
+    font-size: 20px;
+    justify-content: center;
+  }
+
+  .right-card {
+    width: 100%;
+    max-width: none;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .zigzag-img {
+    width: 100%;
+  }
+.nonprofit-section {
+    padding: 40px 15px 80px;
+  }
+
+  .nonprofit-header {
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 50px;
+  }
+
+  .nonprofit-header h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .nonprofit-cards {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .nonprofit-card {
+    width: 100%;
+    min-height: auto;
+    padding: 20px 15px 120px; 
+    text-align: center;
+    position: relative;
+  }
+
+  .nonprofit-card h3 {
+    font-size: 18px;
+  }
+
+  .nonprofit-card p {
+    font-size: 14px;
+  }
+
+  .nonprofit-card img {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  /* case study */
+  .case-study-section {
+    background-size: 300px, cover;
+    padding: 30px 15px 50px;
+  }
+
+  .case-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  .tab {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+    padding: 8px 15px;
+  }
+
+  .tab-icon {
+    width: 40px;
+    margin-right: 6px;
+  }
+
+  .tab-title {
+    font-size: 16px;
+  }
+
+  .intro {
+    width: 100%;
+    padding: 10px 10px;
+    text-align: center;
+  }
+
+  .intro-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .intro-subtitle {
+    font-size: 12px;
+  }
+
+  .case-columns {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .case-left-column,
+  .case-right-column {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .case-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .case-icon {
+    width: 45px;
+    height: 45px;
+    margin: 0;
+  }
+
+  .case-text-content {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .case-heading {
+    font-size: 15px;
+  }
+
+  .case-text {
+    font-size: 13px;
+  }
+
+  .case-study-label.yellow {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .case-list li {
+    font-size: 13px;
+  }
+
+  .result-box {
+    padding: 15px;
+  }
+
+  .result-heading {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .result-grid {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .result-item {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .result-item h3 {
+    font-size: 26px;
+  }
+
+  .result-item p {
+    font-size: 13px;
+  }
+
+  .result-note {
+    font-size: 13px;
+    text-align: center;
+  }
+/* puzzle section */
+.puzzle-section .container {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .puzzle-image-container {
+    flex: 1 1 100%;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  .puzzle-image {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 8px;
+    margin: 0 auto;
+  }
+
+  .star-overlay {
+    width: 70px;
+    height: 70px;
+    top: 50%;
+    left: 50%;
+  }
+
+  .puzzle-image-container .puzzle-text-overlay {
+    font-size: 12px;
+    width: 65px;
+    line-height: 1.2;
+  }
+
+ 
+  .puzzle-image-container .box-1 { top: 10%; left: 8%; }
+  .puzzle-image-container .box-2 { top: 10%; left: 38%; }
+  .puzzle-image-container .box-3 { top: 10%; right: 20%; }
+
+  .puzzle-image-container .box-4 { top: 42%; left: 8%; }
+  .puzzle-image-container .box-6 { top: 44%; right: 20%; }
+
+  .puzzle-image-container .box-7 { bottom: 10%; left: 8%; }
+  .puzzle-image-container .box-8 { bottom: 10%; left: 38%; }
+  .puzzle-image-container .box-9 { bottom: 10%; right: 20%; }
+
+  .puzzle-text {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+
+  .impact-btn {
+    padding: 15px 35px;
+    font-size: 15px;
+  }
+  /* collaboration */
+   .collaboration-section .container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 15px;
+  }
+
+  .col-left-content,
+  .col-right-content {
+    flex: 1 1 100%;
+    max-width: 100%;
+    min-width: auto;
+  }
+
+  .coll-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .text-box {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .text-box img {
+    max-height: 150px;
+  }
+
+  .text-box h3 {
+    font-size: 18px;
+  }
+
+  .col-right-content ol {
+    padding-left: 0;
+  }
+
+  .col-right-content li {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+    max-width: 100%;
+  }
+
+  .circle {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .col-right-content h4 {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+
+  .col-right-content p {
+    font-size: 14px;
+  }
+  /* footer */
+  .footer-overlay {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 25px;
+  }
+
+  .footer-logo {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .footer-brand {
+    width: 120px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 100%;
+    padding-left: 0;
+    min-width: auto;
+  }
+
+  .footer-left h5 {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .offer-box {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .tagline {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .tagline-span {
+    font-size: 18px;
+  }
+
+  .footer-buttons .btn {
+    padding: 8px 18px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .contact-info {
+    font-size: 14px;
+  }
+
+  .contact-info li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-info i {
+    font-size: 16px;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+
+}
+
+
+
+  @media (max-width: 991px) {
+  .impact-container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .impact-left,
+  .impact-right {
+    min-height: auto;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .impact-left h3 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  .impact-point {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+  }
+
+  .impact-point .dot {
+    width: 30px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: -30px;
+  }
+
+  .impact-right {
+    padding: 30px 20px;
+  }
+
+  .impact-right h2 {
+    font-size: 22px;
+    margin-top: 40px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .impact-right p {
+    max-width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .impact-right span {
+    font-size: 16px;
+  }
+
+  .bottom-center-img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: auto;
+    margin-top: 40px;
+  }
+
+  .bottom-center-img img {
+    width: 280px;
+  }
+   .container2 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .left-column,
+  .right-column {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-top: 40px;
+  }
+
+  .left-column {
+    margin-top: 60px;
+  }
+
+  .team-max-width {
+    max-width: 100%;
+    margin-left: 0;
+    padding: 0 15px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .section-subtitle {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .team-image {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .right-column {
+    padding: 0 15px;
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .info-box {
+    padding: 25px;
+  }
+
+  .info-icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+  }
+
+  .info-text {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  /* serive */
+   .services-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .service-image-wrapper {
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .puzzle-img {
+    top: 40px;
+    width: 100%;
+  }
+
+  .arrows-overlay {
+    top: 35px;
+    left: -40px;
+    width: 140%;
+    height: 160%;
+  }
+
+  .service-text {
+    max-width: 90%;
+    text-align: center !important;
+  }
+
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+    grid-column: unset !important;
+    grid-row: unset !important;
+    text-align: center !important;
+  }
+
+  .services-header h2 {
+    font-size: 28px;
+  }
+
+  /* service 2 */
+  .impact-card-container {
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .impact-card {
+    /* width: 45%; */
+    margin-top: 40px;
+  }
+
+
+  .up {
+    transform: translateY(-10px);
+  }
+
+  .down {
+    transform: translateY(10px);
+  }
+
+  .section-title {
+    font-size: 24px;
+    padding: 18px 30px;
+    margin-bottom: 35px;
+  }
+
+
+
+}
+
+
+
