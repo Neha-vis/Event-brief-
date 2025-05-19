@@ -20,7 +20,7 @@
     <div class="overlay-content">
       
       <div id="typewriter-heading" class="banner_heading mb-4">Where Purpose Meets Process</div>
-      <div class="banner-title ">The knowledge partner every mission-led team deserves.</div>
+      <div class="banner-title ">The knowledge partner every  <br>mission-led team deserves.</div>
     </div>
     
   </div>
@@ -40,9 +40,9 @@
     <div class="spark-text">The spark<br>behind our<br>work</div>
     </div>
 
-    <div class="right-content">
+    <div class="home-content">
       
-      <h2 class="mb-3">Extraordinary impact requires more than intent, it needs powerful enablers.</h2>
+      <h2 class="mb-3">Extraordinary impact requires more <br> than intent, it needs powerful enablers.</h2>
       <p class="mb-3">
         Impact Beacon was built to be the strategic backbone for change: a partner that brings data-backed insights, streamlined delivery, and thoughtful integration so nonprofits can focus on driving impact, not managing operations.
       </p>
@@ -103,9 +103,9 @@
       <!-- <img src="./images/toplogo2.png" alt="Impact Beacon Logo" class="toplogo" /> -->
 
       <div class="left-column ">
-        <h2 class="section-title">The Minds Behind the Beacon</h2>
+        <h2 class="section-title1">The Minds Behind the Beacon</h2>
         <p class="section-subtitle">
-          We are Impact Beacon: Powering impact through knowledge and strategy.
+          We are Impact Beacon: <br> Powering impact through knowledge and strategy.
         </p>
         <img src="./images/team.jpg" alt="Team" class="team-image" />
       </div>
@@ -237,13 +237,10 @@
 
 
 <!-- process -->
- <section class="process-section">
-  
-
+<section class="process-section section">
   <div class="container">
    
-
-    <div class="process-content">
+    <div class="process-row">
       <div class="process-text">
         <h2>
           <img src="./images/icons/star.png" alt="Star Icon" class="star-icon" />
@@ -260,39 +257,57 @@
       </div>
     </div>
 
-    <div class="steps-flow">
-      <div class="step up">
-        <h3>Assess</h3>
-        <p>We are immersed in your mission and current systems</p>
+    <div class="steps-grid">
+      <!-- Step 1 -->
+      <div class="step-wrapper up">
+        <div class="step-card">Assess</div>
+        <p class="step-desc">We are immersed in your mission and current systems</p>
       </div>
 
-      <img src="./images/icons/star.png" class="separator" alt="separator" />
-
-      <div class="step down">
-        <h3>Design</h3>
-        <p>We build tailored solutions, rooted in your culture</p>
+      <div class="connector">
+         <span class="dotted-line"></span>
+        <img src="./images/icons/star.png" alt="Star" />
+        <span class="dotted-line"></span>
       </div>
 
-      <img src="./images/icons/star.png" class="separator" alt="separator" />
-
-      <div class="step up">
-        <h3>Deploy</h3>
-        <p>We implement with speed, precision, and care</p>
+      <!-- Step 2 -->
+      <div class="step-wrapper up">
+        <div class="step-card">Design</div>
+        <p class="step-desc">We build tailored solutions, rooted in your culture</p>
       </div>
 
-      <img src="./images/icons/star.png" class="separator" alt="separator" />
+      <div class="connector">
+         <span class="dotted-line"></span>
+        <img src="./images/icons/star.png" alt="Star" />
+        <span class="dotted-line"></span>
+      </div>
 
-      <div class="step down">
-        <h3>Transfer</h3>
-        <p>We equip you with tools, training, and SOPs for long-term success</p>
+      <!-- Step 3 -->
+      <div class="step-wrapper down">
+        <div class="step-card">Deploy</div>
+        <p class="step-desc">We implement with speed, precision, and care</p>
+      </div>
+
+      <div class="connector">
+          <span class="dotted-line"></span>
+        <img src="./images/icons/star.png" alt="Star" />
+        <span class="dotted-line"></span>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="step-wrapper down">
+        <div class="step-card">Transfer</div>
+        <p class="step-desc">We equip you with tools, training, and SOPs for long-term success</p>
       </div>
     </div>
 
+    <!-- Highlight Note -->
     <div class="highlight-note">
       <img src="./images/icons/serviceicon2.png" alt="circle icon" />
-      <p><strong>Always with a human-first, low-jargon, high-trust approach.</strong></p>
+      <p>Always with a human-first, low-jargon, high-trust approach.</p>
     </div>
   </div>
+
 </section>
 
 
@@ -307,56 +322,63 @@
     </h2>
     
     <div class="workflow-wrapper ">
-     
+     <div class="zigzag-area-bg">
       <div class="zigzag-area">
         <img src="./images/workflow.png" alt="Zigzag Path" class="zigzag-img" />
 
         <!-- Step 1 -->
         <div class="workflowstep point1">
-          <h4 class="text-purple ">Discovery and Design</h4>
+          <h4 class="text-purple ">Discovery <br> and Design</h4>
           <div class="step-icon">
-            <img src="./images/outer1.png" class="outer-icon" />
+            <img src="./images/outer3.png" class="outer-icon" />
             <img src="./images/icons/outericon1.png" class="inner-icon" />
           </div>
-          <p class="mt-5">We understand your goals and build a tailored model around them.</p>
+          <p class="mt-5">We understand your goals and build a tailored model around them. <br> <br> Outcome: Support 
+that fits your priorities. </p>
         </div>
 
         <!-- Step 2 -->
         <div class="workflowstep point2">
-          <h4 class="text-danger">Seamless Onboarding</h4>
+          <h4 class="text-danger">Seamless <br> Onboarding</h4>
           <div class="step-icon">
-            <img src="./images/outer2.png" class="outer-icon" />
+            <img src="./images/outer4.png" class="outer-icon" />
             <img src="./images/icons/outericon2.png" class="inner-icon" />
           </div>
-          <p class="mt-5">We plug into your systems with minimal effort from your side.</p>
+          <p class="mt-5">We plug into your systems with minimal effort from your side. <br><br>Outcome: Up and 
+running in days, not 
+weeks. </p>
         </div>
 
         <!-- Step 3 -->
         <div class="workflowstep point3">
-          <h4 class="text-primary">Embedded Delivery</h4>
+          <h4 class="text-primary">Embedded  <br>Delivery</h4>
           <div class="step-icon">
-            <img src="./images/outer3.png" class="outer-icon" />
+            <img src="./images/outer2.png" class="outer-icon" />
             <img src="./images/icons/outericon3.png" class="inner-icon" />
           </div>
-          <p class="mt-5">We function like an internal team – hands-on, steady, & effective.</p>
+          <p class="mt-5">We function like an internal team – hands-on, steady, & effective. <br><br>Outcome: Smooth 
+execution, no extra 
+management. </p>
         </div>
 
         <!-- Step 4 -->
         <div class="workflowstep point4">
-          <h4 class="text-success">Evolve and Scale</h4>
+          <h4 class="text-success">Evolve <br>and Scale</h4>
           <div class="step-icon">
-            <img src="./images/outer4.png" class="outer-icon" />
+            <img src="./images/outer1.png" class="outer-icon" />
             <img src="./images/icons/outericon4.png" class="inner-icon" />
           </div>
-          <p class="mt-5">We refine as we go, tracking progress and adapting support.</p>
+          <p class="mt-5">We refine as we go, tracking progress and adapting support. <br><br> Outcome: A flexible 
+partnership that 
+grows with you. </p>
         </div>
       </div>
-
+    </div>
       <!-- Right Card -->
       <div class="right-card">
-  <h3 class="mb-4 fs-5">Support Modalities:</h3>
+  <h3 >Support Modalities:</h3>
   <ul class="support-list">
-    <li><strong>Retainers</strong><br>Ongoing support across multiple functions</li>
+    <li><strong >Retainers</strong><br>Ongoing support across multiple functions</li>
     <li><strong>Projects</strong><br>Defined deliverables, short timelines</li>
     <li><strong>Surge Pods</strong><br>Fast response for launches, audits, transitions</li>
     <li><strong>Pilots</strong><br>Start small, scale what works</li>
@@ -416,7 +438,7 @@
         <span class="tab-title">RNB Global University</span>
       </div>
       <div class="intro">
-        <h2 class="intro-title">Donor Lifecycle Management, 
+        <h2 class="intro-title">Donor Lifecycle Management, <br>
   Delivered at a Fraction of the Cost</h2>
         <p class="intro-subtitle">Aligned Solution: DLCM – Donor Lifecycle & Community Management</p>
       </div>
@@ -735,6 +757,66 @@
 
 
 
+<!-- footer section -->
+<footer class="custom-footer section">
+  <div class="container">
+    <div class="footer-overlay">
+
+      <div class="footer-logo text-center">
+        <img src="./images/logo/logo.png" alt="Impact Beacon Logo" class="footer-brand" />
+      </div>
+
+      <div class="footer-content d-flex flex-wrap justify-content-between gap-5">
+        
+        <!-- Left Content -->
+        <div class="footer-left">
+          <h5>Let’s Build the Future of Impact</h5>
+          <div class="offer-box">
+            <strong class="fs-5">Book our Impact Readiness Review</strong><br />
+            <small>Limited - Time Offer: Get our Impact Readiness Review valued at $2,500 - 
+              <span class="highlight">absolutely free.</span>
+            </small>
+          </div>
+          <p class="tagline">Let’s co-create magic and amplify your impact.<br>
+            <strong class="tagline-span">Your cause. Our systems.</strong>
+          </p>
+          <div class="footer-buttons">
+            <a href="#" class="btn btn-light">Book a Clarity Call</a>
+            <a href="#" class="btn btn-light">Send a Message</a>
+          </div>
+        </div>
+
+        <!-- Right Contact Info -->
+        <div class="footer-right">
+          <ul class="contact-info">
+            <li>
+              <span class="icon-circle1"><i class="bi bi-telephone-fill"></i></span>
+              +91.11 49199068
+            </li>
+            <li>
+              <span class="icon-circle1"><i class="bi bi-envelope-fill"></i></span>
+              <a href="mailto:info@impactbeacon.in">info@impactbeacon.in</a>
+            </li>
+            <li>
+              <span class="icon-circle1"><i class="bi bi-geo-alt-fill"></i></span>
+              RNB House 1, Shivaji Enclave main road,<br>
+              Near Raja Garden, Opp Mother Dairy, New Delhi-110027
+            </li>
+            <li>
+              <span class="icon-circle1"><i class="bi bi-globe"></i></span>
+              <a href="https://impactbeacon.social" target="_blank">https://impactbeacon.social</a>
+            </li>
+            <li>
+              <span class="icon-circle1"><i class="bi bi-linkedin"></i></span>
+              <a href="#">/impactbeacon</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 
