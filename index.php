@@ -77,7 +77,7 @@
 
     <!-- Right content -->
     <div class="impact-right">
-      <img src="./images/toplogo3.png" alt="Logo" class="toplogo" />
+      <!-- <img src="./images/toplogo3.png" alt="Logo" class="toplogo" /> -->
       <h2>What Accelerates Impact?</h2>
       <p><span>We believe purpose moves fastest with precision.</span></p>
       <p>That’s why we built a dedicated knowledge center for mission-driven organizations; offering the systems, strategy, and execution support they need to turn vision into results.</p>

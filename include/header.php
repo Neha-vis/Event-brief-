@@ -19,9 +19,9 @@
         <ul class="main-nav d-flex gap-4 mb-0">
           <li><a href="#">Home</a></li>
           <li><a href="#">Team</a></li>
-          <li><a href="#">Our services</a></li>
+          <li><a href="#">Our Services</a></li>
           <li><a href="#">Collaboration</a></li>
-          <li><a href="#">Contact US</a></li>
+          <li><a href="#">Contact us</a></li>
         </ul>
       </div>
     </div>

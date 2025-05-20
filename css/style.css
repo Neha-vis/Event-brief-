@@ -290,6 +290,9 @@ h6,
   color: white;
   font-weight: 500;
 }
+.main-nav li a:hover{
+  color: #0052ff;
+}
 
 .rightMenu {
   display: flex;
