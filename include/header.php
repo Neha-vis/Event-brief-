@@ -17,11 +17,11 @@
      
       <div class="rightMenu">
         <ul class="main-nav d-flex gap-4 mb-0">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Our Services</a></li>
-          <li><a href="#">Collaboration</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#approach">Our Approach</a></li>
+          <li><a href="#collaboration">Collaboration</a></li>
+          <li><a href="#footer">Contact us</a></li>
         </ul>
       </div>
     </div>

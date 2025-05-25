@@ -307,3 +307,23 @@ $(window).on("scroll", function () {
     .pauseFor(1500)
     .deleteAll()
     .start();
+// home slide show
+// const images = [
+//   './images/bg/home5.png',
+//     './images/bg/collab.png',
+    
+//     './images/bg/home3.png',
+//     './images/bg/banner2.png'
+//   ];
+
+//   let index = 0;
+//   const section = document.querySelector('.hero-section');
+
+//   function changeBackground() {
+//     section.style.backgroundImage = `url(${images[index]})`;
+//     index = (index + 1) % images.length;
+//   }
+
+//   changeBackground(); // initial call
+//   setInterval(changeBackground, 5000);
+AOS.init();
